@@ -1,4 +1,3 @@
-<img src="./banner.jpg">
 
 ## What is Accessible Reset?
 
