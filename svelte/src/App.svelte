@@ -1,5 +1,5 @@
 <script>
-	import 'amidst';
+	import 'accessible-reset';
 	export let name;
 </script>
 

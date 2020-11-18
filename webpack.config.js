@@ -23,7 +23,7 @@ const fs = require('fs');
 // 		],
 // 	},
 // 	plugins: [
-// 		new MiniCssExtractPlugin({ filename: 'amidst.css' }),
+// 		new MiniCssExtractPlugin({ filename: 'accessible-reset.css' }),
 // 		new OnBuild(function () {
 // 			fs.unlinkSync(path.join(path.resolve(__dirname, './'), 'main.js'));
 // 		}),
@@ -40,7 +40,7 @@ const fs = require('fs');
 const minifyJs = {
 	entry: './src/index.js',
   	output: {
-    	filename: 'amidst.js',
+    	filename: 'accessible-reset.js',
     	path: path.resolve(__dirname, './'),
 	},
 	watch: true,
@@ -56,7 +56,7 @@ const minifyJs = {
 		],
 	},
 	plugins: [
-		new MiniCssExtractPlugin({ filename: 'amidst.css' })
+		new MiniCssExtractPlugin({ filename: 'accessible-reset.css' })
 	],
 	optimization: {
 		minimizer: [

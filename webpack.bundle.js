@@ -5,7 +5,7 @@ const TerserPlugin = require('terser-webpack-plugin');
 const bundle = {
 	entry: './src/index.js',
   	output: {
-    	filename: 'amidst.bundle.js',
+    	filename: 'accessible-reset.bundle.js',
     	path: path.resolve(__dirname, './'),
 	},
 	module: {

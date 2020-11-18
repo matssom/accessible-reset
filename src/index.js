@@ -1,4 +1,4 @@
-/*! Amidst v0.0.1 | MIT License | github.com/matssom/amidst.git */
+/*! Accessible Reset v0.0.1 | MIT License | github.com/matssom/accessible-reset.git */
 
 import './style.css';
 
