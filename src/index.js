@@ -1,4 +1,4 @@
-/*! Accessible Reset v0.0.1 | MIT License | github.com/matssom/accessible-reset.git */
+/*! Accessible Reset v1.0.0 | MIT License | github.com/matssom/accessible-reset.git */
 
 import './style.css';
 
