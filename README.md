@@ -44,19 +44,21 @@ Install the package:
 npm install amidst --save
 ```
 
-Import the package in your root `index.js` file:
+Import the package:
 
 ```js 
-import { amidstBundle } from 'amidst';
+import 'amidst';
 ```
 
-:exclamation: **Note:**
+
 If you want to minimize the file footprint (2kb instead of 6kb), you can include the js and css separately:
 
 ```js
-import { amidstCSS, amidstJs } from 'amidst';
+import 'amidst/amidst.css';
+import 'amidst/amidst.js';
 ```
 
+:exclamation: **Note:** Your build process needs to accept css files for you to be able to import css files directly.
 
 
 <br>
