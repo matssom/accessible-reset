@@ -28,3 +28,5 @@ const tabbing = () => {
 };
 
 tabbing();
+
+// export default tabbing;
