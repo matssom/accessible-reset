@@ -13,7 +13,7 @@ There are very few things you need to think about when using Accessible Reset, b
 - Enhances the behaviour when tabbing through a site. Automatically applies outline to focused elements when tabbing without disturbing the usual behaviour when clicking around on the webpage.
 - Sets the value `1rem = 10px` without disturbing the accessability features of the user agent stylesheet. This enables developers to calculate relative font-sizes much easier. (`1.8rem = 18px` etc...)
 
-For more information, look at the fully commented `accessible-reset.css` file in the `src` foler of [this](https://github.com/matssom/accessible-reset.git) repository.
+For more information, look at the fully commented `style.css` file in the `src` foler of [this](https://github.com/matssom/accessible-reset.git) repository.
 
 <br>
 
